@@ -1,0 +1,38 @@
+
+  .dashboard-card {
+    border-radius: 12px;
+    transition: all 0.3s;
+  }
+  
+  .dashboard-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px);
+  }
+  
+  .card-content {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .card-icon {
+    font-size: 2rem;
+    color: #1890ff;
+  }
+  
+  .income .card-icon {
+    color: #52c41a;
+  }
+  
+  .expense .card-icon {
+    color: #f5222d;
+  }
+  
+  .savings .card-icon {
+    color: #13c2c2;
+  }
+  
+  .report .card-icon {
+    color: #722ed1;
+  }
+  

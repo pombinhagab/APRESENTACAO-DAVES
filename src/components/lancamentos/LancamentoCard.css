@@ -1,0 +1,43 @@
+.lancamentos-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .botao-add {
+    background-color: #1890ff;
+    border: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 6px 14px;
+    transition: all 0.3s ease;
+  }
+  
+  .botao-add:hover {
+    background-color: #40a9ff;
+  }
+  
+  .modal-lancamento .ant-modal-content {
+    border-radius: 12px;
+    padding: 24px;
+  }
+  
+  .modal-lancamento .ant-modal-header {
+    border-bottom: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
